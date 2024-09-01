@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+}
+header{
+    background-color: rgba(247, 236, 34, 0.878);
+    display: grid;
+    grid-template-columns: 40% 60%;
+    align-items: center;
+    padding: 1px;
+   
+
+}
+.caja_logo{
+        height: 110px;
+        
+}
+.logo{
+    height: 200px;
+    position: relative;
+    margin-left: 80px;
+    bottom: 50px;
+   
+
+}
+.caja_menu{
+    text-align: right;
+    margin-right:90px ;
+    
+}
+li{
+    display: inline;
+    margin: 8px;
+}
+a{
+    text-decoration: none;
+    color: rgb(14, 13, 13);
+}
+
+
+nav{
+    display: grid;
+    grid-template-columns: 80% 10% 10%;
+  
+    background-image:url(../imagenes/sala-de-cine.jpg) ;
+    background-size: cover;
+
+}
+
+.imag_principal{
+
+}
+.imag_inicio{
+    height: 510px;
+    width: 1550px;
+    
+}
+
+
+.intro{
+background-color: rgb(8, 8, 8);
+
+    width: 640px;
+    height: 170px;
+    color: rgb(232, 221, 221);
+    position: absolute;
+    top: 180px;
+    padding-top: 40px;
+    padding-left: 40px;
+    margin-left: 425px;
+    font-size: 20px;
+
+}
+.botton1{
+    background-color: rgb(166, 8, 8);
+    color: white;
+}
+
+
+footer{
+    background-color: rgba(247, 236, 34, 0.878);
+    font-size: 150%;
+    justify-content: center;
+    display: grid;
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    height: 20vh;
+}
+.textof{
+    padding-top: 20px;
+}
+.container{
+    padding: 20px;
+    width: 85%;
+    height: 1300px;
+    justify-content: center;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    row-gap: 10px;
+    column-gap:10px;
+  
+}
+.item{
+
+    
+}
+.peli{
+    width: 300px;
+    height: 430px;
+}
+.series{
+    width: 300px;
+    height: 430px;
+
+}
+.documentales{
+    width: 300px;
+    height: 430px;
+}
+.Contactenos{
+
+
+}
+    
+
+.formulario{
+    width: 800px;
+    height: 550px;
+    padding: 5px;
+    margin: 10px;
+    position: relative;
+    bottom: 5px;
+    top: 1px;
+    color: rgb(67, 9, 255);
+}
+.rellenar{
+    position: absolute;
+    left:210px;
+}
+.title_c{
+    height: 100px;
+
+    position: relative;
+    margin-top: 5px;
+    background-color: rgb(242, 80, 80);
+    opacity: 0.6;
+    color: rgb(67, 9, 255);
+    margin: 5px;
+    text-align: left;
+    padding-left: 100px;
+    padding-top: 100px;
+
+
+}
+
+.mapa{
+    width: 810px;
+    height:550px;
+    position: absolute; 
+    padding: 5px;
+    top: 320px; 
+    left: 700px;
+    
+
+}
+
+.img_form1{
+
+
+}
+.img_form{
+   
+
+}
